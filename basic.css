@@ -1,0 +1,44 @@
+*{
+    font-size: 20px;
+    color: aqua;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("th1.jpeg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    background-color: black;
+    border-color: 20px solid white;
+    border: 6px solid violet;
+    display: block;
+    width: 30%;
+    margin: 99px auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+.info_ttl span{
+    color: bisque;
+}
+.strt_btn1{
+    background-color: black;
+    font-size: 20px;
+    color: whitesmoke;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+.ext_btn{
+    background-color: black;
+    font-size: 20px;
+    color: antiquewhite;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+button:hover{
+    color: rgb(18, 212, 18);
+    background-color: aliceblue;
+    cursor: pointer;
+}
